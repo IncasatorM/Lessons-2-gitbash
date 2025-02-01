@@ -11,6 +11,8 @@ public class Main {
         System.out.println(c);
         int d = multiplay(a, b);
         System.out.println(d);
+        int g = delt(a, b);
+        System.out.println(g);
     }
 
     private static int add(int a, int b) {
@@ -19,5 +21,9 @@ public class Main {
 
     private static int multiplay(int a, int b) {
         return a * b;
+    }
+
+    private static int delt(int a, int b){
+        return a - b;
     }
 }
